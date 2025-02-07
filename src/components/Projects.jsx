@@ -2,9 +2,6 @@ import Project_prop from "./project_prop";
 import {
   GPT4,
   Portfolio,
-  Rocket,
-  WellBeing,
-  Game,
 } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -16,8 +13,6 @@ import {
   SiTailwindcss,
   SiVite,
   SiHtml5,
-  SiCss3,
-  SiJavascript,
   SiTypescript,
 } from "react-icons/si";
 
