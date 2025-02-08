@@ -1,5 +1,5 @@
 import Lottie from "lottie-react";
-import education from "../assets/lottie/education.json";
+import education from "/src/assets/lottie/education.json";
 import lead from "../assets/leadlogo.png";
 import Kerala from "../assets/universityofkerala.png";
 import AOS from "aos";
