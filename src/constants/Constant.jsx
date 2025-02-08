@@ -8,7 +8,7 @@ import Javascript from "../assets/Javascript.png";
 import Git from "../assets/Git.png";
 import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
-import react from "../assets/react.png";
+import react from "../assets/React.png";
 import typescript from "../assets/TypeScript.png";
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
