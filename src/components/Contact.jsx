@@ -82,10 +82,10 @@ const Contact = () => {
             />
           </div>
         </div>
-
         <p className="text-[#00040f] dark:text-slate-300 mx-2 text-center capitalize tracking-widest max-sm:text-sm p-2">
-          made with 💙 by Vyshnav M S & the Open Source Community
-        </p>
+  Made with 💙 by <strong>Vyshnav M S</strong>&nbsp;&copy; {new Date().getFullYear()} All Rights Reserved
+</p>
+
       </section>
     </>
   );
