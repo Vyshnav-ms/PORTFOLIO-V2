@@ -14,6 +14,7 @@ import {
   SiVite,
   SiHtml5,
   SiTypescript,
+  SiNextdotjs,
 } from "react-icons/si";
 
 const Projects = () => {
@@ -104,23 +105,30 @@ const Projects = () => {
               </Tooltip>
             }
           />
-          {/* <Project_prop
-            title="Stark Rockets"
-            para="Stark is a fantasy and futuristic website which offers the ride of space-ship to the space"
-            img={Rocket}
-            link="https://stark-rockets.onrender.com/"
-            github_link="https://github.com/DhairyaMajmudar/STARK"
-            html5={
-              <Tooltip title="HTML5" arrow>
+          <Project_prop
+            title="Shift Keys Typing App"
+            para="Shift Keys Typing App is a website designed to improve typing speed and accuracy. "
+            img={GPT4}
+            link="https://shiftkeys.netlify.app/"
+            github_link="https://github.com/Vyshnav-ms/Typing-test-app"
+            react={
+              <Tooltip title="React" arrow>
                 <IconButton>
-                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                  <SiReact className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
-            javascript={
-              <Tooltip title="JavaScript" arrow>
+            typescript={
+              <Tooltip title="Typescript" arrow>
                 <IconButton>
-                  <SiJavascript className="dark:text-slate-200 text-black" />
+                  <SiTypescript className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            html5={
+              <Tooltip title="HTML 5" arrow>
+                <IconButton>
+                  <SiHtml5 className="dark:text-slate-200 text-black" />
                 </IconButton>
               </Tooltip>
             }
@@ -131,7 +139,14 @@ const Projects = () => {
                 </IconButton>
               </Tooltip>
             }
-          /> */}
+            vite={
+              <Tooltip title="Vite" arrow>
+                <IconButton>
+                  <SiVite className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+          />
           {/* <Project_prop
             title="Thrive"
             para="Thrive is a website which primarily focuses on improving life-style and well-being"
