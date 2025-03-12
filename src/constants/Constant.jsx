@@ -12,6 +12,11 @@ import react from "../assets/React.png";
 import typescript from "../assets/TypeScript.png";
 import GPT4 from "../assets/gpt4.jpg";
 import Portfolio from "../assets/portfolio.jpg";
+import WellBeing from "../assets/wellbeing.jpg";
+import Travel from "../assets/travel.jpg";
+import Typing from "../assets/typing.jpg";
+import Lumos from "../assets/lumos.png";
+import Django from "../assets/Django.png";
 
 
 export {
@@ -29,4 +34,9 @@ export {
   GPT4,
   Portfolio,
   typescript,
+  WellBeing,
+  Travel,
+  Typing,
+  Lumos,
+  Django,
 };

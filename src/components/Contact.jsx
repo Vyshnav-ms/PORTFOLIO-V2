@@ -3,7 +3,7 @@ import {
   SiGithub,
   SiLinkedin,
   SiInstagram,
-  SiTwitter,
+  SiX ,
   SiGmail,
 } from "react-icons/si";
 
@@ -49,7 +49,7 @@ const Contact = () => {
                 href="https://x.com/ms_vyshnav/"
                 className=" hover:text-slate-500  dark:hover:text-sky-300"
               >
-                <SiTwitter />
+                <SiX/>
               </a>
               <a
                 href="mailto:vyshnams1@gmail.com"

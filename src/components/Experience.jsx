@@ -1,7 +1,6 @@
 "use client";
 
 import Exp_prop from "./Exp_prop";
-import Skills from "./Skills";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -39,7 +38,6 @@ const Experience = () => {
           </div>
         </div>
       </section>
-      <Skills></Skills>
     </>
   );
 };

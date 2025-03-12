@@ -10,7 +10,8 @@ import {
   Javascript,
   CPP,
   C,
-  typescript
+  typescript,
+  Django,
 } from "../constants/Constant";
 
 import AOS from "aos";
@@ -31,7 +32,7 @@ const Skills = () => {
           SKILLS
         </h1>
         <div
-          className="IMG grid place-content-center p-5 grid-cols-3 gap-4 max-sm:p-2 mt-10"
+          className="IMG grid place-content-center p-5 grid-cols-3 gap-6 max-sm:p-2 mt-10"
           data-aos="zoom-out-up"
         >
           <Image img={HTML}></Image>
@@ -46,6 +47,7 @@ const Skills = () => {
           <Image img={Vite}></Image>
           <Image img={Git}></Image>
           <Image img={Github}></Image>
+          <Image img={Django}></Image>
         </div>
       </section>
     </>
