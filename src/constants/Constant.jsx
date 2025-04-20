@@ -17,7 +17,7 @@ import Travel from "../assets/travel.jpg";
 import Typing from "../assets/typing.jpg";
 import Lumos from "../assets/lumos.png";
 import Django from "../assets/Django.png";
-
+import Lead from "../assets/lead-blue.png";
 
 export {
   C,
@@ -39,4 +39,5 @@ export {
   Typing,
   Lumos,
   Django,
+  Lead,
 };

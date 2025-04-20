@@ -5,6 +5,7 @@ import {
   Travel,
   Typing,
   Lumos,
+  Lead
 } from "../constants/Constant";
 import Tooltip from "@mui/material/Tooltip";
 import IconButton from "@mui/material/IconButton";
@@ -13,14 +14,16 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import {
   SiReact,
+  SiNextdotjs,
   SiTailwindcss,
   SiVite,
   SiHtml5,
   SiTypescript,
   SiPython,
   SiDjango,
-  SiCss3,
+  SiCss3
 } from "react-icons/si";
+
 
 const Projects = () => {
   useEffect(() => {
@@ -69,6 +72,49 @@ const Projects = () => {
                 </IconButton>
               </Tooltip>
             }
+          />
+                    {/* Lead College Website */}
+                    <Project_prop
+            title="Lead College of Management Website "
+            para="Developed the international admissions section of the Lead College of Management website, designed to streamline the application process for global applicants."
+            img={Lead}
+            link="https://lead.ac.in/InternationalAdmission/"
+            github_link="https://github.com/Vyshnav-ms/lead-international-admission"
+            html5={
+              <Tooltip title="HTML 5" arrow>
+                <IconButton>
+                  <SiHtml5 className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            react={
+              <Tooltip title="React JS" arrow>
+                <IconButton>
+                  <SiReact className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            nextjs={
+              <Tooltip title="Next.js" arrow>
+                <IconButton>
+                  <SiNextdotjs className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            typescript={
+              <Tooltip title="TypeScript" arrow>
+                <IconButton>
+                  <SiTypescript className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }
+            tailwindcss={
+              <Tooltip title="Tailwind CSS" arrow>
+                <IconButton>
+                  <SiTailwindcss className="dark:text-slate-200 text-black" />
+                </IconButton>
+              </Tooltip>
+            }            
           />
           {/* Lumos Learning App */}
           <Project_prop

@@ -31,8 +31,9 @@ const Project_prop = (props) => {
                 {props.tailwindcss}
                 {props.react}
                 {props.vite}
-                {props.python}    {/* Added Python */}
-                {props.django}    {/* Added Django */}
+                {props.python}
+                {props.django}
+                {props.nextjs}
               </div>
             </div>
           </div>
