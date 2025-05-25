@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import certifications from "../assets/lottie/certification.json";
+import { FaExternalLinkAlt } from "react-icons/fa";
 
 const Certification = () => {
   useEffect(() => {
@@ -11,48 +12,50 @@ const Certification = () => {
   return (
     <section
       id="certifications"
-      className="p-5 mx-20 mb-10 min-h-screen font-['Poppins'] max-sm:p-2 max-sm:mx-5"
+      className="EXPERIENCE p-5 mx-20 mb-10 min-h-screen font-['Poppins'] max-sm:p-2 max-sm:mx-5"
     >
-      <div className="mt-10">
+      <div className="WRAPPER mt-10">
         <h1 className="text-[#00040f] dark:text-slate-300 text-center font-extrabold text-5xl mb-5 max-sm:text-4xl">
           Certifications
         </h1>
 
         <div
-          className="flex flex-wrap gap-7 justify-center"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 mt-10"
           data-aos="fade-up"
         >
           {certifications.map((cert, index) => (
             <div
               key={index}
-              className="max-w-[520px] mt-[52px] p-7 max-sm:p-3 border rounded-lg shadow-md dark:bg-slate-800"
+              className="bg-[#e1e1e1] dark:bg-transparent dark:border-white border border-[#00040f] rounded-xl p-6 shadow-xl hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C] transition-all duration-300"
             >
-              <div className="flex items-center gap-5">
+              <div className="flex gap-5 items-center mb-4">
                 <img
                   src={cert.logo}
                   alt={cert.issuer}
-                  className="w-[60px] h-[60px]"
+                  className="w-[60px] h-[60px] object-contain border border-[#00040f] rounded-md"
                 />
                 <div>
-                  <h2 className="text-xl font-semibold text-[#00040f] dark:text-slate-300">
+                  <h2 className="text-xl font-semibold text-[#00040f] dark:text-slate-200">
                     {cert.title}
                   </h2>
-                  <p className="text-gray-500 dark:text-slate-400">
+                  <p className="text-sm text-gray-600 dark:text-slate-400">
                     {cert.issuer}
                   </p>
-                  <p className="text-gray-500 dark:text-slate-400">
+                  <p className="text-xs text-gray-500 dark:text-slate-500">
                     {cert.date}
                   </p>
-                  <a
-                    href={cert.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-blue-500 hover:underline"
-                  >
-                    View Certificate
-                  </a>
                 </div>
               </div>
+
+              <a
+                href={cert.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 inline-flex items-center justify-center gap-2 py-3 px-4 bg-gradient-to-t dark:from-cyan-500 dark:to-slate-300 from-blue-600 to-cyan-600 font-medium text-[12px] text-[#e1e1e1] dark:text-black rounded shadow transition-all duration-300 hover:brightness-110"
+              >
+                View Certificate <FaExternalLinkAlt className="text-xs" />
+              </a>
+
             </div>
           ))}
         </div>
