@@ -3,35 +3,35 @@
     "title": "Certified Cybersecurity Technician (CCT)",
     "issuer": "Networkers Home, Bangalore",
     "date": "April 24, 2023",
-    "logo": "src/assets/networkers.png",
-    "link": "src/assets/Vyshnav M S - Certified Cybersecurity Technician (CCT).pdf"
+    "logo": "/logos/networkers.png",
+    "link": "/certifications/Vyshnav M S - Certified Cybersecurity Technician (CCT).pdf"
   },
   {
     "title": "Certified Ethical Hacker (CEH v11)",
     "issuer": "Networkers Home, Bangalore",
     "date": "June 18, 2023",
-    "logo": "src/assets/networkers.png",
-    "link": "src/assets/Vyshnav M S - Certified Ethical Hacker (CEH v11).pdf"
+    "logo": "/logos/networkers.png",
+    "link": "/certifications/Vyshnav M S - Certified Ethical Hacker (CEH v11).pdf"
   },
   {
     "title": "Certified Penetration Testing Professional (CPENT)",
     "issuer": "Networkers Home, Bangalore",
     "date": "August 2, 2023",
-    "logo": "src/assets/networkers.png",
-    "link": "src/assets/Vyshnav M S - Certified Penetration Testing Professional (CPENT).pdf"
+    "logo": "/logos/networkers.png",
+    "link": "/certifications/Vyshnav M S - Certified Penetration Testing Professional (CPENT).pdf"
   },
   {
     "title": "Cisco Certified Network Associate (CCNA 200-301)",
     "issuer": "Networkers Home, Bangalore",
     "date": "2023",
-    "logo": "src/assets/networkers.png",
-    "link": "src/assets/Vyshnav M S - CCNA 200 - 301.pdf"
+    "logo": "/logos/networkers.png",
+    "link": "/certifications/Vyshnav M S - CCNA 200 - 301.pdf"
   },
   {
-    "title": "INtroduction to Cyber Security",
+    "title": "Introduction to Cyber Security",
     "issuer": "Cisco Networking Academy",
     "date": "May 25, 2025",
-    "logo": "src/assets/cisco.png",
-    "link": "src/assets/Vyshnav M S - INtroduction to Cyber Security.pdf"
+    "logo": "/logos/cisco.png",
+    "link": "/certifications/Vyshnav M S - INtroduction to Cyber Security.pdf"
   }
 ]
