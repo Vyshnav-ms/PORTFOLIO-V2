@@ -10,7 +10,7 @@ import Vite from "../assets/Vite.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import react from "../assets/React.png";
 import typescript from "../assets/TypeScript.png";
-import GPT4 from "../assets/gpt4.jpg";
+import GPT4 from "../assets/gpt4.png";
 import Portfolio from "../assets/portfolio.jpg";
 import WellBeing from "../assets/wellbeing.jpg";
 import Travel from "../assets/travel.jpg";
