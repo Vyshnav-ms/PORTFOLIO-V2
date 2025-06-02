@@ -27,7 +27,7 @@ const About = () => {
           <Lottie
             animationData={computer}
             loop={true}
-            className="max-w-[650px] shadow-xl rounded-xl border border-[#00040f]"
+            className="max-w-[650px] rounded-xl "
           />
         </div>
       </section>

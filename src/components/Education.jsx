@@ -75,7 +75,7 @@ const Education = () => {
           <Lottie
             animationData={education}
             loop={true}
-            className="max-w-[500px] shadow-xl rounded-xl border border-[#00040f]"
+            className="max-w-[500px] rounded-xl "
           />
         </div>
       </div>

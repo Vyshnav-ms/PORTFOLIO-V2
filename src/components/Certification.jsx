@@ -26,13 +26,20 @@ const Certification = () => {
           {certifications.map((cert, index) => (
             <div
               key={index}
-              className="bg-[#e1e1e1] dark:bg-transparent dark:border-white border border-[#00040f] rounded-xl p-6 shadow-xl hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] dark:from-[#00040F] dark:to-[#0B274C] transition-all duration-300"
+              className="
+                bg-white dark:bg-transparent rounded-xl p-6
+                shadow-[0_0_15px_3px_rgba(59,130,246,0.6)] 
+                dark:shadow-[0_0_15px_3px_rgba(14,165,233,0.8)]
+                hover:bg-gradient-to-tl from-[#ccc] to-[#e1e1e1] 
+                dark:from-[#00040F] dark:to-[#0B274C] 
+                transition-all duration-300
+              "
             >
               <div className="flex gap-5 items-center mb-4">
                 <img
                   src={cert.logo}
                   alt={cert.issuer}
-                  className="w-[60px] h-[60px] object-contain border border-[#00040f] rounded-md"
+                  className="w-[60px] h-[60px] object-contain rounded-md"
                 />
                 <div>
                   <h2 className="text-xl font-semibold text-[#00040f] dark:text-slate-200">
@@ -55,7 +62,6 @@ const Certification = () => {
               >
                 View Certificate <FaExternalLinkAlt className="text-xs" />
               </a>
-
             </div>
           ))}
         </div>
